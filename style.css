@@ -1,0 +1,40 @@
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    /* margin-bottom: 20px; */
+    color: #333;
+  }
+  
+  /* Styling for the task input field */
+  #taskInput {
+     /* width: 100%; */
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+  }
+  
+  /* Styling for the add task button */
+  #addTaskBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the task list */
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #taskList li {
+    margin-bottom: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Task Reminder",
+  "version": "1.0",
+  "description": "Reminds you of tasks you need to do tomorrow.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
